@@ -1,7 +1,8 @@
 version: "3.8"
 
 services:
-    image: nginx
+    build:
+     context: .
     container_name: "nginx_cont"
     ports:
       - "80:80"
