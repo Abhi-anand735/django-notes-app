@@ -1,8 +1,7 @@
 version: "3.8"
 
 services:
-    build:
-     context: .
+    image: Abhi-anand735/notes-app:latest
     container_name: "nginx_cont"
     ports:
       - "80:80"
